@@ -1,0 +1,42 @@
+{
+  "name": "dyd-h5-cli",
+  "version": "1.0.0",
+  "bin": {
+    "dyd": "bin/index.js"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/.git"
+  },
+  "keywords": [
+    "cli",
+    "dyd"
+  ],
+  "author": "hanxueqiang",
+  "private": true,
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "commander": "^2.15.1",
+    "cpy": "^7.0.1",
+    "download-git-repo": "^1.0.2",
+    "fs-extra": "^7.0.1",
+    "glob": "^7.1.2",
+    "inquirer": "^6.0.0",
+    "node-fs-extra": "^0.8.2",
+    "ora": "^2.1.0",
+    "rimraf": "^2.6.2"
+  },
+  "devDependencies": {
+    "eslint": "^6.6.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-html": "^6.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1"
+  }
+}
