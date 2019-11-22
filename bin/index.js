@@ -6,16 +6,14 @@ program
   .version(require('../package.json').version, '-V, --version')
   .description('点一点h5脚手架')
 
-// --help
-
 program
-  .command('run [option]')
+  .command('run [projectName] [envMode]')
   .alias('s')
   .description('启动本地服务')
   .action(require('../lib/run'))
 
 program
-  .command('build [option]')
+  .command('build [projectName] [envMode]')
   .alias('b')
   .description('打包项目文件')
   .action(require('../lib/build'))
