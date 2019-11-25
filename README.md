@@ -21,25 +21,23 @@ dyd init 子项目名
 ```
 
 ### 5、启动子项目
-默认环境(dev)运行:
 ```
-dyd run 子项目名
+dyd start 子项目名
 ```
-
-指定环境运行:
+以上命令默认是以dev环境运行。
++ 如果要以指定环境运行，使用以下命令：
 ```
-dyd run 子项目名 环境模式
+dyd start 子项目名 环境模式
 ```
-目前环境有dev、test、beta、prod，具体以dyd-h5项目的.env相关文件为准。
++ 目前环境有dev、test、beta、prod，具体以dyd-h5项目的.env相关文件为准。
 
 ### 6、打包子项目
-默认环境(prod)打包:
 ```
 dyd build 子项目名
 ```
-
-指定环境打包:
+以上命令默认是以prod环境打包。
++ 如果要以指定环境打包，使用以下命令：
 ```
 dyd build 子项目名 环境模式
 ```
-目前环境有dev、test、beta、prod，具体以dyd-h5项目的.env相关文件为准。
++ 目前环境有dev、test、beta、prod，具体以dyd-h5项目的.env相关文件为准。
