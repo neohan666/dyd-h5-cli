@@ -1,6 +1,6 @@
 {
   "name": "dyd-h5-cli",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "description": "dyd-h5-cli",
   "bin": {
     "dyd": "bin/index.js"
