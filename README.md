@@ -41,3 +41,9 @@ dyd build 子项目名
 dyd build 子项目名 环境模式
 ```
 + 目前环境有dev、test、beta、prod，具体以dyd-h5项目的.env相关文件为准。
+
+### 7、运行打包后的子项目
++ 开启一个本地http服务器，运行打包后的子项目（dist文件夹下的目录）
+```
+dyd server 子项目名
+```
