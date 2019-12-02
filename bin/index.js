@@ -8,7 +8,7 @@ commander
 
 commander
   .command('start [projectName] [envMode]')
-  .description('启动本地服务')
+  .description('启动本地项目')
   .action(require('../lib/start'))
 
 commander
@@ -17,8 +17,13 @@ commander
   .action(require('../lib/build'))
 
 commander
-  .command('init [option]')
+  .command('init [projectName]')
   .description('创建一个新的子项目')
   .action(require('../lib/init'))
+
+commander
+  .command('server')
+  .description('开启本地服务器运行打包后的项目')
+  .action(require('../lib/server'))
 
 commander.parse(process.argv)
