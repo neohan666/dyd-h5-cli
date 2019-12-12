@@ -1,6 +1,6 @@
 {
   "name": "dyd-h5-cli",
-  "version": "1.6.0",
+  "version": "1.6.1",
   "description": "dyd-h5-cli",
   "bin": {
     "dyd": "bin/index.js"
@@ -29,9 +29,9 @@
     "glob": "^7.1.2",
     "inquirer": "^6.0.0",
     "koa": "^2.11.0",
-    "koa-connect-history-api-fallback": "^0.3.1",
     "koa-mount": "^4.0.0",
     "koa-static": "^5.0.0",
+    "koa2-connect-history-api-fallback": "^0.1.2",
     "node-fs-extra": "^0.8.2",
     "ora": "^2.1.0",
     "rimraf": "^2.6.2"
