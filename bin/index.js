@@ -26,4 +26,9 @@ commander
   .description('开启本地服务器运行打包后的项目')
   .action(require('../lib/server'))
 
+commander
+  .command('buildAll [envMode')
+  .description('打包所有子项目')
+  .action(require('../lib/buildAll'))
+
 commander.parse(process.argv)
