@@ -1,6 +1,7 @@
 {
   "name": "dyd-h5-cli",
-  "version": "2.0.2",
+  "version": "2.0.3",
+  "author": "neohan",
   "description": "dyd-h5-cli",
   "bin": {
     "dyd": "bin/index.js"
@@ -9,16 +10,15 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/neohan666/dyd-h5-cli"
-  },
   "keywords": [
     "cli",
     "dyd"
   ],
-  "author": "neohan",
-  "license": "ISC",
+  "license": "MIT",
+  "files": [
+    "bin",
+    "lib"
+  ],
   "dependencies": {
     "chalk": "^2.4.1",
     "commander": "^2.15.1",
